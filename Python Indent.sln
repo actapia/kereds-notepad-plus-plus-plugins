@@ -1,28 +1,72 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Python Indent", "Python Indent.vcxproj", "{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "notepad++", "..\npp\notepad++.exe", "{C1781A3A-4D38-4027-AA62-C55076338D18}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = D:\Libraries\Documents\python_indent\npp\notepad++.exe
+		RemoteMachine = ANDREW-ASUS-2
+		StartingDirectory = D:\Libraries\Documents\python_indent\npp
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		ANSI Debug|Win32 = ANSI Debug|Win32
+		ANSI Debug|x64 = ANSI Debug|x64
 		ANSI Release|Win32 = ANSI Release|Win32
+		ANSI Release|x64 = ANSI Release|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 		Unicode Debug|Win32 = Unicode Debug|Win32
+		Unicode Debug|x64 = Unicode Debug|x64
 		Unicode Realeas|Win32 = Unicode Realeas|Win32
+		Unicode Realeas|x64 = Unicode Realeas|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.ANSI Debug|Win32.ActiveCfg = ANSI Debug|Win32
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.ANSI Debug|Win32.Build.0 = ANSI Debug|Win32
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.ANSI Debug|x64.ActiveCfg = ANSI Debug|x64
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.ANSI Debug|x64.Build.0 = ANSI Debug|x64
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.ANSI Release|Win32.ActiveCfg = ANSI Release|Win32
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.ANSI Release|Win32.Build.0 = ANSI Release|Win32
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.ANSI Release|x64.ActiveCfg = ANSI Release|x64
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.ANSI Release|x64.Build.0 = ANSI Release|x64
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Release|Win32.ActiveCfg = ANSI Release|Win32
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Release|Win32.Build.0 = ANSI Release|Win32
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Release|x64.ActiveCfg = ANSI Release|x64
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Release|x64.Build.0 = ANSI Release|x64
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Unicode Debug|x64.ActiveCfg = Unicode Debug|x64
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Unicode Debug|x64.Build.0 = Unicode Debug|x64
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Unicode Realeas|Win32.ActiveCfg = Unicode Realeas|Win32
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Unicode Realeas|Win32.Build.0 = Unicode Realeas|Win32
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Unicode Realeas|x64.ActiveCfg = Unicode Realeas|x64
+		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Unicode Realeas|x64.Build.0 = Unicode Realeas|x64
+		{C1781A3A-4D38-4027-AA62-C55076338D18}.ANSI Debug|Win32.ActiveCfg = Release|x64
+		{C1781A3A-4D38-4027-AA62-C55076338D18}.ANSI Debug|x64.ActiveCfg = Release|x64
+		{C1781A3A-4D38-4027-AA62-C55076338D18}.ANSI Release|Win32.ActiveCfg = Release|x64
+		{C1781A3A-4D38-4027-AA62-C55076338D18}.ANSI Release|x64.ActiveCfg = Release|x64
+		{C1781A3A-4D38-4027-AA62-C55076338D18}.Release|Win32.ActiveCfg = Release|x64
+		{C1781A3A-4D38-4027-AA62-C55076338D18}.Release|x64.ActiveCfg = Release|x64
+		{C1781A3A-4D38-4027-AA62-C55076338D18}.Unicode Debug|Win32.ActiveCfg = Release|x64
+		{C1781A3A-4D38-4027-AA62-C55076338D18}.Unicode Debug|x64.ActiveCfg = Release|x64
+		{C1781A3A-4D38-4027-AA62-C55076338D18}.Unicode Realeas|Win32.ActiveCfg = Release|x64
+		{C1781A3A-4D38-4027-AA62-C55076338D18}.Unicode Realeas|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEE0E495-AEB6-41A5-B3C1-5B3CA25EE5C7}
 	EndGlobalSection
 EndGlobal
