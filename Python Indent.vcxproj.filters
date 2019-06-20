@@ -41,5 +41,8 @@
     <ClInclude Include="Scintilla.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Sci_Position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
